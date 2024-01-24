@@ -1,1 +1,0 @@
-class AuctioneerExistsException implements Exception {}

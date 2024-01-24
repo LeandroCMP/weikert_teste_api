@@ -1,1 +1,0 @@
-class VehicleExistsException implements Exception {}

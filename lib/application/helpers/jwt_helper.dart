@@ -13,7 +13,7 @@ class JwtHelper {
     final expire = int.parse(env['JWT_EXPIRE'] ?? env['jwtExpire'] ?? "1");
 
     final claimSet = JwtClaim(
-      issuer: 'financialmanagement',
+      issuer: 'testetecnico',
       subject: userId,
       expiry: DateTime.now().add(Duration(days: expire)),
       notBefore: DateTime.now(),
